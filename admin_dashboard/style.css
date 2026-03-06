@@ -1,0 +1,66 @@
+body{
+font-family: Arial, sans-serif;
+background:#f7f4fb;
+color:#333;
+margin:0;
+padding:0;
+text-align:center;
+}
+
+header{
+background:#d7e3fc;
+padding:30px;
+}
+
+.intro{
+padding:30px;
+max-width:800px;
+margin:auto;
+}
+
+.features{
+display:flex;
+justify-content:center;
+gap:30px;
+padding:40px;
+}
+
+.card{
+background:#ffe5ec;
+padding:25px;
+width:250px;
+border-radius:10px;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card:nth-child(2){
+background:#e2f0cb;
+}
+
+.card:nth-child(3){
+background:#cddafd;
+}
+
+.card a{
+display:inline-block;
+margin-top:10px;
+padding:10px 20px;
+background:#a0c4ff;
+color:white;
+text-decoration:none;
+border-radius:5px;
+}
+
+.card a:hover{
+background:#8ecae6;
+}
+
+.homeBtn{
+display:inline-block;
+margin-top:20px;
+padding:10px 20px;
+background:#a0c4ff;
+color:white;
+text-decoration:none;
+border-radius:5px;
+}
